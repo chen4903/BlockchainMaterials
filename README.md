@@ -4,9 +4,21 @@
 
 ## 00.工具
 
-- [x] 将ABI转换成人类可读ABI：https://gnidan.github.io/abi-to-sol/
+- [x] ABI to interface：https://gnidan.github.io/abi-to-sol/
 - [ ] 密码学转换：https://emn178.github.io/online-tools/keccak_256.html
 - [ ] EVM字节码：https://evm.codes/playground
+- [ ] 查询目前所有的函数签名
+  - [ ] https://www.4byte.directory/
+  - [ ] https://openchain.xyz/signatures
+  - [ ] https://www.etherface.io/hash
+
+- [ ] ABI Encode：https://abi.hashex.org/
+- [ ] calldata Decode：https://calldata-decoder.apoorv.xyz/
+- [ ] 合约没开源，可以用这个来上市获取ABI：https://abi.w1nt3r.xyz/
+- [ ] 反编译工具
+  - [ ] https://library.dedaub.com/decompile?md5=58c948aa3e23b09bc625f06f37f93c7f
+  - [ ] https://ethervm.io/decompile/goerli/0x39038C2d61c22dD8f98070262e0b770f5d08C338
+
 
 ## 01.教程
 
@@ -36,10 +48,12 @@
 - [ ] 内容较少：https://godorz.info/
 - [ ] 多和实时有关，应用性强，不适合入门，有深度：https://www.tofreedom.me/
 - [ ] 实验室学长，内容比较难：https://thomasxu-blockchain.github.io/
+- [ ] 实验室学长，大部分内容是CTF题解：https://luciferzxj.github.io/
 - [ ] B1ue1nWh1te的博客，多为CTF题解：https://www.seaeye.cn/archives/497.html
 - [ ] CTF题解，事件分析等：https://s3cunda.github.io/archive.html
 - [ ] CTF题解：https://bcyng-w.github.io/
 - [ ] CTF多：https://beafb1b1.github.io/
+- [ ] 内容多，各种都有：https://hicoldcat.com/categories/
 - [ ] 【英文】作者经常分享自己对以太坊升级的看法和资讯：https://hackmd.io/@benjaminion
 - [ ] 【英文】内容比较难，有深度：https://yos.io/2019/11/10/smart-contract-development-best-practices/
 - [ ] 【英文】内容复杂，非常难：https://swende.se/
@@ -295,7 +309,21 @@
 - [ ] 博主笔记：https://godorz.info/2022/04/plonk-notes/
 - [ ] 学习资料汇总：https://learnblockchain.cn/2019/11/08/zkp-info
 
-## 31.其他
+## 31.EVM操作码
+
+- [ ] opcode结构分析与ida静态调试：https://www.anquanke.com/post/id/200350
+- [ ] OPCODE 逆向之理论基础篇：https://paper.seebug.org/640/
+
+## 32.链上数据分析
+
+- [x] 可视化数据追踪工具：[Phalcon](https://phalcon.blocksec.com/)
+- [ ] 可视化数据追踪工具：[Tx.viewer](https://tx.eth.samczsun.com/) 
+- [ ] 可视化数据追踪工具： [Cruise](https://cruise.supremacy.team/)
+- [ ] 可视化数据追踪工具：[Ethtx](https://ethtx.info/)
+- [ ] 可视化数据追踪工具：[Tenderly](https://dashboard.tenderly.co/explorer)
+- [ ] 可视化数据追踪工具：[metaleuth](https://metasleuth.io/result/eth/0x6bfd9e286e37061ed279e4f139fbc03c8bd707a2cdd15f7260549052cbba79b7)
+
+## 33.其他
 
 - [x] 靓号生成器：https://vanity-eth.tk/
 
