@@ -18,6 +18,7 @@
 - [ ] 反编译工具
   - [ ] https://library.dedaub.com/decompile?md5=58c948aa3e23b09bc625f06f37f93c7f
   - [ ] https://ethervm.io/decompile/goerli/0x39038C2d61c22dD8f98070262e0b770f5d08C338
+- [x] 瑞士军刀，包含加解密、格式化、正则、编码转换等：https://the-x.cn/zh-cn/hash/SecureHashAlgorithm.aspx。
 
 
 ## 01.教程
@@ -39,6 +40,8 @@
 - [ ] immunefi：
   - 合约漏洞赏金平台，在上面提交漏洞报告，不仅可以得到丰厚的回报，也会收获行业声誉。https://immunefi.com/
   - 也提供了智能合约安全的教程。https://immunefi.com/learn/
+- [ ] 审计联赛：https://www.sherlock.xyz/
+- [ ] https://www.codehawks.com/
 
 ## 04.大佬博客
 
@@ -54,9 +57,12 @@
 - [ ] CTF题解：https://bcyng-w.github.io/
 - [ ] CTF多：https://beafb1b1.github.io/
 - [ ] 内容多，各种都有：https://hicoldcat.com/categories/
+- [ ] 非常有深度的大佬，涉及web2和web3：https://paco0x.org/
+- [ ] 【英文】Damn Vulnerable DeFi创始人博客：https://www.notonlyowner.com/
 - [ ] 【英文】作者经常分享自己对以太坊升级的看法和资讯：https://hackmd.io/@benjaminion
 - [ ] 【英文】内容比较难，有深度：https://yos.io/2019/11/10/smart-contract-development-best-practices/
 - [ ] 【英文】内容复杂，非常难：https://swende.se/
+- [ ] 
 - [x] 【英文】三个经典靶场的题解，合约审计工程师：https://cmichel.io/
 
 ## 05.文档
@@ -73,6 +79,7 @@
 ## 07.电子书
 
 - [ ] 《精通以太坊》中文版：https://github.com/inoutcode/ethereum_book
+- [x] 一个关于以太坊虚拟机的PDF，非常的棒，必看：https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf
 
 ## 08.区块链浏览器
 
@@ -165,7 +172,7 @@
 
 - [ ] 慢雾科技，分享漏洞分析：https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU4ODQ3NTM2OA==&action=getalbum&album_id=1378653641065857025&scene=173&from_msgid=2247494336&from_itemidx=1&count=3&nolastread=1#wechat_redirect
 - [ ] rekt，分享漏洞和攻击事件：https://rekt.news/zh/
-- [ ] SWC漏洞分类：https://swcregistry.io/
+- [x] SWC漏洞分类：https://swcregistry.io/
 - [ ] 101个DeFi被黑事件Root cause 分析:
    https://web3sec.notion.site/web3sec/Web3-security-ddaa8bf9a985494dbaf70d698345b899
 
@@ -194,6 +201,7 @@
 
 ## 18.水龙头
 
+- [ ] 水龙头列表：https://faucetlink.to/goerli
 - [ ] 水龙头大全：https://github.com/arddluma/awesome-list-testnet-faucets
 
 
@@ -259,23 +267,25 @@
 - [ ] 催眠大师
 - [ ] duke du
 
-## 23.区块链ctf
+## 23.CTF
 
 - [ ] CTF Wiki，收集了绝大部分智能合约的CTF：https://ctf-wiki.org/blockchain/challenges/
 - [ ] CTF汇总：https://github.com/blockthreat/blocksec-ctfs
-- [ ] Ethernaut：https://ethernaut.openzeppelin.com/
-  - [ ] 题解：https://xz.aliyun.com/t/7173和https://xz.aliyun.com/t/7174
+- [x] Ethernaut：https://ethernaut.openzeppelin.com/
+  - [x] 题解：https://xz.aliyun.com/t/7173和https://xz.aliyun.com/t/7174
   - [x] 题解：https://medium.com/@0xsage
-  - [ ] 视频题解：https://www.youtube.com/watch?v=RHh1qSx7v6w
-- [ ] EVM bytescode：https://www.evmthroughctfs.com/和https://github.com/fvictorio/evm-puzzles
+  - [x] 视频题解：https://www.youtube.com/watch?v=RHh1qSx7v6w
+- [x] EVM bytescode：https://www.evmthroughctfs.com/和https://github.com/fvictorio/evm-puzzles
 - [ ] DoraHacks区块链安全部分：https://xz.aliyun.com/t/2900
 - [ ] 一个做区块链CTF的YouTube博主：https://www.youtube.com/watch?v=ozqOlUVKL1s
-- [ ] chainflag题目和少部分题解：https://github.com/chainflag/ctf-blockchain-challenges
-- [ ] Damn Vulnerable DeFi：https://www.damnvulnerabledefi.xyz/
+- [x] chainflag题目和少部分题解：https://github.com/chainflag/ctf-blockchain-challenges
+- [x] Damn Vulnerable DeFi：https://www.damnvulnerabledefi.xyz/
 - [ ] paradigm ctf: https://ctf.paradigm.xyz/
 - [ ] CBSC-2022一等奖chainflg队伍开源题解：https://github.com/chainflag/CBSC-2022-solutions
 - [x] Capturetheether：https://capturetheether.com/
-- [ ] 玩家可以在其中创建和解决 EVM 难题以赚取 NFT：https://www.curta.wtf/
+- [x] 玩家可以在其中创建和解决 EVM 难题以赚取 NFT：https://www.curta.wtf/
+- [ ] CTF Protocol：https://www.ctfprotocol.com/tracks/eko2022
+- [ ] QuillCTF：https://quillctf.super.site/challenges
 
 ## 24.以太坊
 
@@ -323,7 +333,54 @@
 - [ ] 可视化数据追踪工具：[Tenderly](https://dashboard.tenderly.co/explorer)
 - [ ] 可视化数据追踪工具：[metaleuth](https://metasleuth.io/result/eth/0x6bfd9e286e37061ed279e4f139fbc03c8bd707a2cdd15f7260549052cbba79b7)
 
-## 33.其他
+## 33.Twitter
+
+- [x] [@0xOwenThurm](https://twitter.com/0xOwenThurm)
+
+- [x] [@bytes032](https://twitter.com/bytes032)
+
+- [x] [@pashovkrum](https://twitter.com/pashovkrum)
+
+- [x] [@PatrickAlphaC](https://twitter.com/PatrickAlphaC)
+- [x] [@tinchoabbate](https://twitter.com/tinchoabbate)
+- [x] [@cmichelio](https://twitter.com/cmichelio)
+- [x] [@code4rena](https://twitter.com/code4rena)
+- [x] [@NoneAgeOfficial](https://twitter.com/NoneAgeOfficial)
+- [x] [@BlockBeatsAsia](https://twitter.com/BlockBeatsAsia)
+- [x] [@numencyber](https://twitter.com/numencyber)
+- [x] [@nazar_ilamanov](https://twitter.com/nazar_ilamanov)
+- [x] [@TheSecureum](https://twitter.com/TheSecureum)
+- [x] [@MistTrack_io](https://twitter.com/MistTrack_io)
+- [x] [@1nf0s3cpt](https://twitter.com/1nf0s3cpt)
+- [x] [@paradigm_ctf](https://twitter.com/paradigm_ctf)
+- [x] [@0xAA_Science](https://twitter.com/0xAA_Science)
+
+## 34.审计报告
+
+- [ ] https://github.com/spearbit/portfolio
+- [ ] https://github.com/pashov/audits
+
+## 34.github项目
+
+- [ ] 重入攻击汇总：https://github.com/pcaversaccio/reentrancy-attacks
+
+## 35.Gas优化
+
+- [ ] https://www.rareskills.io/learn-solidity
+- [ ] https://www.udemy.com/course/advanced-solidity-understanding-and-optimizing-gas-costs/?referralCode=C4684D6872713525E349
+- [ ] https://www.udemy.com/course/advanced-solidity-yul-and-assembly/?referralCode=C46DE4EE2C4BE54D4D33
+- [ ] https://www.rareskills.io/post/gas-optimization
+
+## 36.Move
+
+- [ ] 仿菜鸟的学习网站，学习语法：http://www.codebaoku.com/move/move-resource-update.html
+- [ ] Builder DAO视频课程对应的入门资料：https://github.com/RandyPen/sui-move-intro-course-zh/tree/main
+- [ ] 某人整理的move资料：https://github.com/uvd/sui-move-book
+- [ ] move中文文档：https://move-dao.github.io/move-book-zh/
+- [ ] move社区：https://move-china.com/movebook
+- [ ] Move资料合集notion：https://notion.movefuns.org/Move-e8a0b43ad41d4100b45ae6b77aa57814
+
+## 37.其他
 
 - [x] 靓号生成器：https://vanity-eth.tk/
 
