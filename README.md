@@ -6,27 +6,31 @@
 
 - [x] ABI to interface：https://gnidan.github.io/abi-to-sol/
 - [ ] 密码学转换：https://emn178.github.io/online-tools/keccak_256.html
-- [ ] EVM字节码：https://evm.codes/playground
-- [ ] 查询目前所有的函数签名
-  - [ ] https://www.4byte.directory/
-  - [ ] https://openchain.xyz/signatures
-  - [ ] https://www.etherface.io/hash
+- [x] EVM字节码：https://evm.codes/playground
+- [x] 查询目前所有的函数签名
+  - [x] https://www.4byte.directory/
+  - [x] https://openchain.xyz/signatures
+  - [x] https://www.etherface.io/hash
 
-- [ ] ABI Encode：https://abi.hashex.org/
+- [x] ABI Encode：https://abi.hashex.org/
 - [ ] calldata Decode：https://calldata-decoder.apoorv.xyz/
 - [ ] 合约没开源，可以用这个来上市获取ABI：https://abi.w1nt3r.xyz/
 - [ ] 反编译工具
   - [ ] https://library.dedaub.com/decompile?md5=58c948aa3e23b09bc625f06f37f93c7f
   - [ ] https://ethervm.io/decompile/goerli/0x39038C2d61c22dD8f98070262e0b770f5d08C338
 - [x] 瑞士军刀，包含加解密、格式化、正则、编码转换等：https://the-x.cn/zh-cn/hash/SecureHashAlgorithm.aspx。
-
+- [ ] 将区块链浏览器已经verify的合约的源码拉去下来：
+  - [ ] https://github.com/SergeKireev/ethereum-sources-downloader
+  - [ ] `cast etherscan-source -h`
+- [ ] 猜测函数选择器和ABI解码：https://github.com/fuzzland/abi-guesser-cli
+- [ ] 从字节码中提取函数选择器和参数（同样适用于未经验证的合约）：https://github.com/cdump/evmole
 
 ## 01.教程
 
 - [x] 加密僵尸：https://cryptozombies.io/zh/
 - [ ] 新加坡duke开源学习仓库：https://github.com/dukedaily/solidity-expert
-- [ ] 北大区块链协会WTF：https://github.com/AmazingAng/WTF-Solidity
-- [ ] solidity by example :https://solidity-by-example.org/ 和https://www.smartcontract.engineer/
+- [x] 北大区块链协会WTF：https://github.com/AmazingAng/WTF-Solidity
+- [x] solidity by example :https://solidity-by-example.org/ 和https://www.smartcontract.engineer/
 
 ## 02.社区
 
@@ -37,11 +41,11 @@
 ## 3.赏金猎人
 
 - [ ] 项目方会在这上面公布自己的合约，然后如果有人发现漏洞，项目方就会给赏金：https://code4rena.com/leaderboard
-- [ ] immunefi：
+- [x] immunefi：
   - 合约漏洞赏金平台，在上面提交漏洞报告，不仅可以得到丰厚的回报，也会收获行业声誉。https://immunefi.com/
   - 也提供了智能合约安全的教程。https://immunefi.com/learn/
-- [ ] 审计联赛：https://www.sherlock.xyz/
-- [ ] https://www.codehawks.com/
+- [x] 审计联赛：https://www.sherlock.xyz/
+- [x] code：https://www.codehawks.com/
 
 ## 04.大佬博客
 
@@ -51,7 +55,7 @@
 - [ ] 内容较少：https://godorz.info/
 - [ ] 多和实时有关，应用性强，不适合入门，有深度：https://www.tofreedom.me/
 - [ ] 实验室学长，内容比较难：https://thomasxu-blockchain.github.io/
-- [ ] 实验室学长，大部分内容是CTF题解：https://luciferzxj.github.io/
+- [x] 实验室学长，大部分内容是CTF题解：https://luciferzxj.github.io/
 - [ ] B1ue1nWh1te的博客，多为CTF题解：https://www.seaeye.cn/archives/497.html
 - [ ] CTF题解，事件分析等：https://s3cunda.github.io/archive.html
 - [ ] CTF题解：https://bcyng-w.github.io/
@@ -62,7 +66,7 @@
 - [ ] 【英文】作者经常分享自己对以太坊升级的看法和资讯：https://hackmd.io/@benjaminion
 - [ ] 【英文】内容比较难，有深度：https://yos.io/2019/11/10/smart-contract-development-best-practices/
 - [ ] 【英文】内容复杂，非常难：https://swende.se/
-- [ ] 
+- [ ] sui move：https://hackmd.io/@Ryan0912
 - [x] 【英文】三个经典靶场的题解，合约审计工程师：https://cmichel.io/
 
 ## 05.文档
@@ -83,14 +87,14 @@
 
 ## 08.区块链浏览器
 
-- [ ] Etherscan：https://etherscan.io/
+- [x] Etherscan：https://etherscan.io/
 - [ ] 开源：https://www.etherchain.org/
 - [ ] 调用逻辑可视化：https://dashboard.tenderly.co/explorer
-- [ ] Phalcon，调用逻辑可视化：https://explorer.phalcon.xyz/
+- [x] Phalcon，调用逻辑可视化：https://explorer.phalcon.xyz/
 
 ## 09.第三方库
 
-- [ ] OpenZeppelin：https://www.openzeppelin.com/
+- [x] OpenZeppelin：https://www.openzeppelin.com/
 - [ ] 新兴的库，小众：https://github.com/dapphub/dappsys。使用手册：https://dappsys.readthedocs.io/en/latest/
 - [ ] 提供里许多的合约和他们的测试脚本，可以作为自己开发的组件：https://github.com/HQ20/contracts
 
@@ -102,9 +106,9 @@
    - [ ] 以千字节显示智能合约的大小：https://github.com/IoBuilders/truffle-contract-size
    - [ ] 可升级合约插件：https://github.com/OpenZeppelin/openzeppelin-upgrades
    - [ ] 检查测试的覆盖性：https://github.com/sc-forks/solidity-coverage
-- [ ] Hardhat：https://hardhat.org/
-   - [ ] 中文文档：https://learnblockchain.cn/docs/hardhat/getting-started/
-   - [ ] GitHub：https://github.com/NomicFoundation/hardhat
+- [x] Hardhat：https://hardhat.org/
+   - [x] 中文文档：https://learnblockchain.cn/docs/hardhat/getting-started/
+   - [x] GitHub：https://github.com/NomicFoundation/hardhat
 - [ ] Brownie：https://github.com/eth-brownie/brownie
    - [ ] 文档：https://eth-brownie.readthedocs.io/en/latest/
 - [ ] Embark：https://github.com/embarklabs/embark
@@ -112,28 +116,28 @@
 - [ ] Epirus（在 JVM 上开发区块链应用程序的平台）：https://www.web3labs.com/web3j-sdk
    - [ ] 文档：https://docs.web3j.io/4.8.7/
    - [ ] GitHub：https://github.com/web3j/web3j
-- [ ] Open Zeppelin SDK：一套帮助您开发、编译、升级、部署智能合约并与之交互的工具
-   - [ ] SDK：https://openzeppelin.com/sdk/
-   - [ ] GitHub：https://github.com/OpenZeppelin/openzeppelin-sdk
-   - [ ] 社区论坛：https://forum.openzeppelin.com/c/support/17
+- [x] Open Zeppelin SDK：一套帮助您开发、编译、升级、部署智能合约并与之交互的工具
+   - [x] SDK：https://openzeppelin.com/sdk/
+   - [x] GitHub：https://github.com/OpenZeppelin/openzeppelin-sdk
+   - [x] 社区论坛：https://forum.openzeppelin.com/c/support/17
 - [ ] The　Graph：链上信息查询API
    - [ ] 网站：https://thegraph.com/en/
    - [ ] 使用教程：https://ethereum.org/zh/developers/tutorials/the-graph-fixing-web3-data-querying/
-- [ ] Alchemy：区块链服务商
-   - [ ] 网站：https://www.alchemy.com/
-   - [ ] GitHub：https://github.com/alchemyplatform
-   - [ ] discord：https://discord.com/invite/A39JVCM
+- [x] Alchemy：区块链服务商
+   - [x] 网站：https://www.alchemy.com/
+   - [x] GitHub：https://github.com/alchemyplatform
+   - [x] discord：https://discord.com/invite/A39JVCM
 
 ## 11.与合约交互的库
 
-- [ ] web3.js
-   - [ ] 文档：https://web3js.readthedocs.io/en/v1.8.1/
-   - [ ] 中文文档：https://learnblockchain.cn/docs/web3.js/index.html
-   - [ ] GitHub：https://github.com/web3/web3.js
+- [x] web3.js
+   - [x] 文档：https://web3js.readthedocs.io/en/v1.8.1/
+   - [x] 中文文档：https://learnblockchain.cn/docs/web3.js/index.html
+   - [x] GitHub：https://github.com/web3/web3.js
 
-- [ ] Ethers.js
-   - [ ] 文档：https://docs.ethers.io/v5/
-   - [ ] GitHub：https://github.com/ethers-io/ethers.js/
+- [x] Ethers.js
+   - [x] 文档：https://docs.ethers.io/v5/
+   - [x] GitHub：https://github.com/ethers-io/ethers.js/
 
 - [ ] Graph：使用 GraphQL 的信息查询的库，配套有信息查询平台
    - [ ] 主页：https://thegraph.com/en/
@@ -142,8 +146,8 @@
 
 - [ ] Alchemyweb3：封装后的 Web3.js 的库，Alchemy 的配套生态
    - [ ] GitHub：https://github.com/alchemyplatform/alchemy-web3
-- [ ] web3j：Java的API
-   - [ ] GitHub：https://github.com/web3j/web3j
+- [x] web3j：Java的API
+   - [x] GitHub：https://github.com/web3j/web3j
 
 - [ ] web3.py：用于与以太坊交互的 Python 库
    - [ ] GitHub：https://github.com/ethereum/web3.py
@@ -201,37 +205,37 @@
 
 ## 18.水龙头
 
-- [ ] 水龙头列表：https://faucetlink.to/goerli
-- [ ] 水龙头大全：https://github.com/arddluma/awesome-list-testnet-faucets
+- [x] 水龙头列表：https://faucetlink.to/goerli
+- [x] 水龙头大全：https://github.com/arddluma/awesome-list-testnet-faucets
 
 
-- [ ] 需要Twitter登录，无需粉丝: https://faucets.chain.link/
-- [ ] 需要Alchemy登录: https://goerlifaucet.com/
-- [ ] 需要Twitter登录，有粉丝要求：https://faucet.paradigm.xyz/
-- [ ] 自己动手挖矿Goerli： https://goerli-faucet.pk910.de/
-- [ ] 领取各种测试代币：https://bitszn.com/faucets.html
-- [ ] 测试币领取：https://security.feishu.cn/link/safety?target=https%3A%2F%2Fmirror.xyz%2F3344521.eth%2FXdxM6yA728WLI6jm-5PM4RkVs0bNSx89PUswzQf7N5Q&scene=ccm&logParams=%7B%22location%22%3A%22ccm_docs%22%7D&lang=zh-CN
+- [x] 需要Twitter登录，无需粉丝: https://faucets.chain.link/
+- [x] 需要Alchemy登录: https://goerlifaucet.com/
+- [x] 需要Twitter登录，有粉丝要求：https://faucet.paradigm.xyz/
+- [x] 自己动手挖矿Goerli： https://goerli-faucet.pk910.de/
+- [x] 领取各种测试代币：https://bitszn.com/faucets.html
+- [x] 测试币领取：https://security.feishu.cn/link/safety?target=https%3A%2F%2Fmirror.xyz%2F3344521.eth%2FXdxM6yA728WLI6jm-5PM4RkVs0bNSx89PUswzQf7N5Q&scene=ccm&logParams=%7B%22location%22%3A%22ccm_docs%22%7D&lang=zh-CN
 
-- [ ] goerli
-  - [ ] https://faucet.quicknode.com/ethereum/goerli
-  - [ ] https://goerlifaucet.com/
-  - [ ] https://faucet.goerli.mudit.blog/
-  - [ ] https://goerli-faucet.slock.it/
-  - [ ] https://faucet.matic.network/
-  - [ ] https://app.mycrypto.com/faucet
-  - [ ] https://faucet.softbinator.com/
-  - [ ] https://goerli-faucet.pk910.de/
+- [x] goerli
+  - [x] https://faucet.quicknode.com/ethereum/goerli
+  - [x] https://goerlifaucet.com/
+  - [x] https://faucet.goerli.mudit.blog/
+  - [x] https://goerli-faucet.slock.it/
+  - [x] https://faucet.matic.network/
+  - [x] https://app.mycrypto.com/faucet
+  - [x] https://faucet.softbinator.com/
+  - [x] https://goerli-faucet.pk910.de/
 
-- [ ] Sepolia
-  - [ ] https://faucet.sepolia.dev/
-  - [ ] https://fauceth.komputing.org/
-  - [ ] https://sepoliafaucet.net/
-  - [ ] https://sepolia-faucet.pk910.de/
+- [x] Sepolia
+  - [x] https://faucet.sepolia.dev/
+  - [x] https://fauceth.komputing.org/
+  - [x] https://sepoliafaucet.net/
+  - [x] https://sepolia-faucet.pk910.de/
 
-- [ ] BSC
-  - [ ] https://testnet.binance.org/faucet-smart
-  - [ ] https://faucets.chain.link/chapel
-  - [ ] https://faucet.quicknode.com/binance-smart-chain/bnb-testnet
+- [x] BSC
+  - [x] https://testnet.binance.org/faucet-smart
+  - [x] https://faucets.chain.link/chapel
+  - [x] https://faucet.quicknode.com/binance-smart-chain/bnb-testnet
 
 ## 19.学习路线
 
@@ -263,7 +267,7 @@
 ## 22.Youtube博主
 
 - [ ] Smart Contract Programmer
-- [ ] 理想区块链
+- [x] 理想区块链
 - [ ] 催眠大师
 - [ ] duke du
 
@@ -281,7 +285,7 @@
 - [x] chainflag题目和少部分题解：https://github.com/chainflag/ctf-blockchain-challenges
 - [x] Damn Vulnerable DeFi：https://www.damnvulnerabledefi.xyz/
 - [ ] paradigm ctf: https://ctf.paradigm.xyz/
-- [ ] CBSC-2022一等奖chainflg队伍开源题解：https://github.com/chainflag/CBSC-2022-solutions
+- [x] CBSC-2022一等奖chainflg队伍开源题解：https://github.com/chainflag/CBSC-2022-solutions
 - [x] Capturetheether：https://capturetheether.com/
 - [x] 玩家可以在其中创建和解决 EVM 难题以赚取 NFT：https://www.curta.wtf/
 - [ ] CTF Protocol：https://www.ctfprotocol.com/tracks/eko2022
@@ -330,8 +334,8 @@
 - [ ] 可视化数据追踪工具：[Tx.viewer](https://tx.eth.samczsun.com/) 
 - [ ] 可视化数据追踪工具： [Cruise](https://cruise.supremacy.team/)
 - [ ] 可视化数据追踪工具：[Ethtx](https://ethtx.info/)
-- [ ] 可视化数据追踪工具：[Tenderly](https://dashboard.tenderly.co/explorer)
-- [ ] 可视化数据追踪工具：[metaleuth](https://metasleuth.io/result/eth/0x6bfd9e286e37061ed279e4f139fbc03c8bd707a2cdd15f7260549052cbba79b7)
+- [x] 可视化数据追踪工具：[Tenderly](https://dashboard.tenderly.co/explorer)
+- [x] 可视化数据追踪工具：[metaleuth](https://metasleuth.io/result/eth/0x6bfd9e286e37061ed279e4f139fbc03c8bd707a2cdd15f7260549052cbba79b7)
 
 ## 33.Twitter
 
@@ -366,21 +370,24 @@
 
 ## 35.Gas优化
 
-- [ ] https://www.rareskills.io/learn-solidity
-- [ ] https://www.udemy.com/course/advanced-solidity-understanding-and-optimizing-gas-costs/?referralCode=C4684D6872713525E349
 - [ ] https://www.udemy.com/course/advanced-solidity-yul-and-assembly/?referralCode=C46DE4EE2C4BE54D4D33
 - [ ] https://www.rareskills.io/post/gas-optimization
 
 ## 36.Move
 
 - [ ] 仿菜鸟的学习网站，学习语法：http://www.codebaoku.com/move/move-resource-update.html
-- [ ] Builder DAO视频课程对应的入门资料：https://github.com/RandyPen/sui-move-intro-course-zh/tree/main
+- [ ] BMove基础翻译：https://github.com/RandyPen/sui-move-intro-course-zh/tree/main
 - [ ] 某人整理的move资料：https://github.com/uvd/sui-move-book
 - [ ] move中文文档：https://move-dao.github.io/move-book-zh/
 - [ ] move社区：https://move-china.com/movebook
 - [ ] Move资料合集notion：https://notion.movefuns.org/Move-e8a0b43ad41d4100b45ae6b77aa57814
+- [ ] sui move中文文档：https://examples.sui-book.com/patterns/hot-potato.html
 
-## 37.其他
+## 37.仪表盘
+
+- [ ] DeFi仪表盘：https://zapper.xyz/zh
+
+## 38.其他
 
 - [x] 靓号生成器：https://vanity-eth.tk/
 
