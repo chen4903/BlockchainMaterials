@@ -40,7 +40,7 @@
 
 ## 3.赏金猎人
 
-- [ ] 项目方会在这上面公布自己的合约，然后如果有人发现漏洞，项目方就会给赏金：https://code4rena.com/leaderboard
+- [x] 项目方会在这上面公布自己的合约，然后如果有人发现漏洞，项目方就会给赏金：https://code4rena.com/leaderboard
 - [x] immunefi：
   - 合约漏洞赏金平台，在上面提交漏洞报告，不仅可以得到丰厚的回报，也会收获行业声誉。https://immunefi.com/
   - 也提供了智能合约安全的教程。https://immunefi.com/learn/
